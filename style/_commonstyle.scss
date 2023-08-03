@@ -1,0 +1,55 @@
+//-----Body--------------------------------------------------
+body [data-scroll="false"] {
+	overflow: hidden;
+}
+body [data-scroll="true"] {
+	overflow: scroll;
+}
+body.menu-open {
+	overflow: hidden;
+}
+//-----Wrapper--------------------------------------------------
+
+.wrapper {
+	min-height: 100%;
+	overflow: clip;
+	display: flex;
+	flex-direction: column;
+}
+//===================CONTAINER============================
+
+[class*="__container"] {
+	max-width: 1180px;
+	margin: 0px auto;
+	padding: 0px 10px;
+}
+/*-------PC-------- */
+@media (max-width: 1000px) {
+	[class*="__container"] {
+		max-width: 960px;
+	}
+}
+/*-------TABLET-------- */
+@media (max-width: 779.98px) {
+	[class*="__container"] {
+		max-width: 640px;
+	}
+}
+/*-------MOBIL-------- */
+@media (max-width: 479.98px) {
+	[class*="__container"] {
+		max-width: 460px;
+	}
+}
+/*-------MOBIL-Small------- */
+@media (max-width: 359.98px) {
+	[class*="__container"] {
+		max-width: 340px;
+	}
+}
+// ==========Page=================================================
+.page {
+	flex: 1 1 auto;
+	overflow-x: clip;
+}
+
