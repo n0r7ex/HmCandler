@@ -16,7 +16,7 @@
 				&:not(:last-child) {
 					margin-bottom: 15px;
 				}
-				@media (max-width: 779.98px) {
+				@media (max-width: 767.98px) {
 					font-size: 15px;
 					&:not(:last-child) {
 						margin-bottom: 20px;
@@ -35,7 +35,7 @@
 				&:not(:last-child) {
 					margin-bottom: 20px;
 				}
-				@media (max-width: 779.98px) {
+				@media (max-width: 767.98px) {
 					font-size: 10px;
 				}
 				@media (max-width: 359.98px) {
@@ -48,7 +48,7 @@
 			@media (max-width: 999.98px) {
 				min-width: 300px;
 			}
-			@media (max-width: 779.98px) {
+			@media (max-width: 767.98px) {
 				min-width: 200px;
 				padding: 0px 0px;
 			}
@@ -60,45 +60,24 @@
 			}
 		}
 		.about__list {
-			position: relative;
 			display: flex;
 			gap: 20px;
 			padding-left: 110px;
 			padding-bottom: 48px;
 			align-items: center;
 			flex-basis: 930px;
-
-			&::before {
-				content: "";
-				position: absolute;
-				left: 0;
-				bottom: 0;
-				background-image: url("../img/main/about/decor.webp");
-				width: 22px;
-				height: 30px;
-			}
-
-			&::after {
-				content: "";
-				position: absolute;
-				background-color: #7b6152;
-				left: 22px;
-				bottom: 14px;
-				width: 200%;
-				height: 1px;
-			}
 			.about__item {
 				.about__item-img {
 					&:not(:last-child) {
 						margin-bottom: 10px;
 					}
-					@media (max-width: 779.98px) {
+					@media (max-width: 767.98px) {
 						&:not(:last-child) {
 							margin-bottom: 6px;
 						}
 					}
 				}
-				@media (max-width: 779.98px) {
+				@media (max-width: 767.98px) {
 					.about__item-img--1 {
 						width: 120px;
 					}
@@ -130,7 +109,7 @@
 				}
 				.about__item-text {
 					font-size: 11px;
-					@media (max-width: 779.98px) {
+					@media (max-width: 767.98px) {
 						font-size: 7.6px;
 					}
 					@media (max-width: 479.98px) {
@@ -141,7 +120,7 @@
 			@media (max-width: 999.98px) {
 				padding-left: 20px;
 			}
-			@media (max-width: 779.98px) {
+			@media (max-width: 767.98px) {
 				margin-left: 25px;
 				padding-left: 0px;
 				padding-bottom: 32px;
