@@ -1,0 +1,218 @@
+.courses {
+	padding-bottom: 150px;
+	background: var(--unnamed, #fff8f3);
+	.courses__container {
+		display: grid;
+		grid-template-columns: 370px auto;
+		.courses__descr {
+			@media (max-width: 664.98px) {
+				width: 300px;
+				margin: 0 auto;
+			}
+			@media (max-width: 359.98px) {
+				width: 204px;
+			}
+		}
+		.courses__content {
+			padding-left: 73px;
+			padding-bottom: 88px;
+			column-gap: 127px;
+			.courses__item {
+				width: 270px;
+				text-align: center;
+				margin: 0 auto;
+				.course__image {
+				}
+				.image-course {
+					position: relative;
+					color: #fff;
+					font-family: Yeseva One;
+					font-size: 11px;
+					font-weight: 400;
+					line-height: normal;
+					.image-course__img {
+						&:not(:last-child) {
+							margin-bottom: 28px;
+						}
+						@media (max-width: 768px) {
+							width: 196px;
+							&:not(:last-child) {
+								margin-bottom: 26px;
+							}
+						}
+						@media (max-width: 450.98px) {
+							width: 256px;
+							&:not(:last-child) {
+								margin-bottom: 31px;
+							}
+						}
+					}
+					.image-course__title {
+						background: var(--unnamed, #bea495);
+						position: absolute;
+						padding: 15px;
+						left: -1px;
+						bottom: 164px;
+						@media (max-width: 768px) {
+							padding: 13px 7px;
+							font-size: 9px;
+							left: 13px;
+							bottom: 137px;
+						}
+						@media (max-width: 450.98px) {
+							padding: 15px 5px;
+							font-size: 11px;
+							left: 47px;
+							bottom: 48%;
+						}
+					}
+					.image-course__time {
+						position: absolute;
+						background: var(--unnamed, #bea495);
+						padding: 7px 10px;
+						left: -1px;
+						bottom: 122px;
+						span {
+							font-size: 10px;
+							font-family: "Comfortaa", cursive;
+						}
+						@media (max-width: 768px) {
+							font-size: 9px;
+							padding: 7px 10px;
+							left: 13px;
+							bottom: 99px;
+						}
+						@media (max-width: 450.98px) {
+							font-size: 11px;
+							left: 47px;
+							bottom: 36%;
+						}
+					}
+					.image-course__value {
+						background: var(--unnamed, #bea495);
+						padding: 19px 10px;
+						position: absolute;
+						right: -14px;
+						bottom: 14px;
+						@media (max-width: 768px) {
+							font-size: 9px;
+							padding: 15px 9px;
+							right: 1px;
+							bottom: 16px;
+						}
+						@media (max-width: 450.98px) {
+							font-size: 11px;
+							padding: 15px 9px;
+							right: 31px;
+							bottom: 19px;
+						}
+					}
+				}
+				.courses__item-title {
+					color: var(--unnamed, #000);
+					font-family: Yeseva One;
+					font-size: 16px;
+					font-weight: 400;
+					line-height: 1.2;
+					&:not(:last-child) {
+						margin-bottom: 14px;
+					}
+					@media (max-width: 768px) {
+						font-size: 12px;
+						&:not(:last-child) {
+							margin-bottom: 9px;
+						}
+					}
+					@media (max-width: 359.98px) {
+						&:not(:last-child) {
+							margin-bottom: 10px;
+						}
+					}
+				}
+				.courses__item-text {
+					color: var(--unnamed, #000);
+					text-align: center;
+					font-size: 14px;
+					font-weight: 400;
+					line-height: 1.08;
+					&:not(:last-child) {
+						margin-bottom: 27px;
+					}
+					@media (max-width: 768px) {
+						font-size: 8px;
+						&:not(:last-child) {
+							margin-bottom: 19px;
+						}
+					}
+					@media (max-width: 359.98px) {
+						font-size: 10px;
+						&:not(:last-child) {
+							margin-bottom: 27px;
+						}
+					}
+				}
+				.courses__item-button {
+					padding: 13px 16px;
+					@media (max-width: 768px) {
+						font-size: 12px;
+						padding: 11px 26px;
+					}
+					@media (max-width: 479.98px) {
+						font-size: 12px;
+						padding: 11px 23px;
+					}
+					@media (max-width: 359.98px) {
+						font-size: 12px;
+						padding: 10px 22px;
+					}
+				}
+				@media (max-width: 900px) {
+					width: 222px;
+				}
+				@media (max-width: 450px) {
+					width: 350px;
+					margin: 0 auto;
+				}
+				@media (max-width: 359.98px) {
+					margin-bottom: 0 -14px;
+				}
+			}
+			@media (max-width: 999.98px) {
+				column-gap: 70px;
+				padding-left: 33px;
+			}
+			@media (max-width: 768px) {
+				column-gap: 7%;
+				padding-left: 0;
+			}
+			@media (max-width: 664.98px) {
+				padding-top: 30px;
+				column-gap: 10px;
+			}
+			@media (max-width: 450px) {
+				column-gap: 0px;
+				row-gap: 41px;
+				grid-template-columns: none;
+			}
+		}
+		@media (max-width: 999.98px) {
+			grid-template-columns: 300px auto;
+		}
+		@media (max-width: 900px) {
+			grid-template-columns: 200px auto;
+		}
+		@media (max-width: 664px) {
+			display: block;
+		}
+	}
+	@media (max-width: 999.98px) {
+	}
+	@media (max-width: 768px) {
+	}
+	@media (max-width: 479.98px) {
+		padding-top: 60px;
+	}
+	@media (max-width: 359.98px) {
+		padding-bottom: 30px;
+	}
+}

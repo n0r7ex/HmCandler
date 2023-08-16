@@ -1,0 +1,120 @@
+.team {
+	padding: 50px 0px 85px 0px;
+	background: var(--2, #a5978e);
+	.team__container {
+		display: grid;
+		grid-template-columns: 370px auto;
+		.team__descr {
+			@media (max-width: 664.98px) {
+				width: 300px;
+				margin: 0 auto;
+			}
+			@media (max-width: 359.98px) {
+				width: 204px;
+			}
+			.team__title {
+				color: #fafafa;
+			}
+			.team__text {
+				color: #fafafa;
+			}
+		}
+		.team__content {
+			gap: 75px;
+			.team__item {
+				position: relative;
+				.team__img {
+					width: 217px;
+					& img {
+						max-width: 100%;
+					}
+					@media (max-width: 768px) {
+						width: 142px;
+					}
+					@media (max-width: 447px) {
+						width: 204px;
+					}
+				}
+				.team__item-box {
+					position: absolute;
+					bottom: 8px;
+					right: 33px;
+					background: var(--1, #7b6152);
+					color: #fff;
+					text-align: center;
+					width: 165px;
+					padding: 14px 10px;
+					.team__item-name {
+						font-size: 12px;
+						font-family: "Yeseva One", cursive;
+						&:not(:last-child) {
+							margin-bottom: 5px;
+						}
+						@media (max-width: 768px) {
+							font-size: 8px;
+						}
+						@media (max-width: 447px) {
+							font-size: 11px;
+						}
+					}
+					.team__item-descr {
+						font-size: 10px;
+						@media (max-width: 768px) {
+							font-size: 6px;
+						}
+						@media (max-width: 447px) {
+							font-size: 10px;
+						}
+					}
+					@media (max-width: 768px) {
+						width: 106px;
+						padding: 10px 10px;
+						right: -23px;
+					}
+					@media (max-width: 664px) {
+						right: 0;
+					}
+					@media (max-width: 447px) {
+						padding: 14px 10px;
+						width: 165px;
+					}
+				}
+				@media (max-width: 664px) {
+					width: 210px;
+				}
+				@media (max-width: 479px) {
+					width: auto;
+				}
+			}
+			@media (max-width: 999.98px) {
+				gap: 35px;
+			}
+			@media (max-width: 664px) {
+				margin-top: 30px;
+			}
+			@media (max-width: 447px) {
+				grid-template-columns: auto;
+				width: 300px;
+			}
+		}
+		@media (max-width: 999.98px) {
+			grid-template-columns: 262px auto;
+			gap: 30px;
+		}
+		@media (max-width: 900px) {
+			grid-template-columns: 200px auto;
+		}
+		@media (max-width: 664px) {
+			display: block;
+		}
+	}
+	@media (max-width: 999.98px) {
+		margin-bottom: 50px;
+	}
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 479.98px) {
+}
+@media (max-width: 447px) {
+}
